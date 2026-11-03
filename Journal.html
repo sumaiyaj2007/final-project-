@@ -52,34 +52,52 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="#">
+    <header class="container-fluid bg-primary">
+    <nav class="navbar navbar-expand bg-body-danger">
+
+      <div class="container bg-tertiary">
+        <a class="navbar-brand" href="#">
           <img src="image/logo.png" alt="logo" width="60" height="50" >
         </a>
-            <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse" data-bs-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="menu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav>
+        <div class="container">
+        <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link mx-2" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="myself.html">MyPortfolio</a>
+                        <a class="nav-link mx-2" href="myself.html">MyPortfolio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           AboutUs
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Education</a></li>
+            <li><a class="dropdown-item" href="#">Health</a></li>
+            <li><a class="dropdown-item" href="#">disability</a></li>
+            <li><a class="dropdown-item" href="#">Community Development</a></li>
+            <li><a class="dropdown-item" href="#">Support Services</a></li>
+          </ul>
+        </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="contact.html">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Journal.html">Journal</a>
+                        <a class="nav-link mx-2" href="Journal.html">Journal</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+      </div>
+    </nav>
+  </header>
 
     <!-- Heading -->
     <section class="hero">
